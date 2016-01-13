@@ -18,7 +18,8 @@ namespace AverageNumber
             Console.Write("Give third number: ");
             int num3 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine((num1 + num2 + num3) / 3);
+            Console.WriteLine("Sum: " + (num1 + num2 + num3));
+            Console.WriteLine("Average: " + (num1 + num2 + num3) / 3);
             Console.ReadLine();
 
         }
